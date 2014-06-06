@@ -1,0 +1,414 @@
+2014-06-06 12:09:27 =ERROR REPORT====
+GET /bettingapp/index [bettingApp] 404 0ms2014-06-06 12:10:05 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:10:22 =ERROR REPORT====
+GET /bettingApp/index [bettingApp] 404 0ms2014-06-06 12:10:24 =ERROR REPORT====
+GET /bettingApp/index [bettingApp] 404 0ms2014-06-06 12:10:24 =ERROR REPORT====
+GET /bettingApp/index [bettingApp] 404 0ms2014-06-06 12:11:04 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:11:05 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:11:21 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:11:46 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:11:47 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:11:48 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:11:48 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:12:14 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:12:49 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:12:50 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:13:19 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:14:29 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:14:29 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:14:30 =ERROR REPORT====
+GET /betting/ [bettingApp] 404 0ms2014-06-06 12:14:35 =ERROR REPORT====
+GET /betting/index [bettingApp] 404 0ms2014-06-06 12:15:48 =ERROR REPORT====
+** Generic server <0.266.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:15:48 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.266.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 7966
+  neighbours:
+2014-06-06 12:15:48 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.266.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:17:09 =ERROR REPORT====
+** Generic server <0.284.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],57376,61471,65566}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:17:09 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3047
+  neighbours:
+2014-06-06 12:17:09 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.284.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:17:13 =ERROR REPORT====
+** Generic server <0.289.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],69662,73759,77856}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:17:13 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.289.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3049
+  neighbours:
+2014-06-06 12:17:13 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.289.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:17:27 =ERROR REPORT====
+** Generic server <0.266.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:17:27 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.266.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3057
+  neighbours:
+2014-06-06 12:17:27 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.266.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:19:34 =ERROR REPORT====
+GET / [bettingApp] 404 0ms2014-06-06 12:19:45 =ERROR REPORT====
+** Generic server <0.276.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],57376,61471,65566}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:19:45 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.276.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3547
+  neighbours:
+2014-06-06 12:19:45 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.276.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:19:58 =ERROR REPORT====
+GET /bettingApp/ [bettingApp] 404 0ms2014-06-06 12:20:07 =ERROR REPORT====
+** Generic server <0.283.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],69662,73759,77856}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:20:07 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.283.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 4304
+  neighbours:
+2014-06-06 12:20:07 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.283.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:21:43 =ERROR REPORT====
+** Generic server <0.291.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["betting_index_controller"],81952,86047,90142}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:21:43 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.291.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3049
+  neighbours:
+2014-06-06 12:21:43 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.291.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:26:13 =ERROR REPORT====
+** Generic server <0.296.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],94238,98335,102432}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:26:13 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.296.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 3064
+  neighbours:
+2014-06-06 12:26:13 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.296.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["betting_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:26:40 =ERROR REPORT====
+** Generic server <0.266.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:26:40 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.266.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3043
+  neighbours:
+2014-06-06 12:26:40 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.266.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["bettingApp_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:27:22 =ERROR REPORT====
+** Generic server <0.266.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:27:22 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.266.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 3159
+  neighbours:
+2014-06-06 12:27:22 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.266.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["bettingApp_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:27:23 =ERROR REPORT====
+** Generic server <0.277.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],57376,61471,65566}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:27:23 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.277.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 3151
+  neighbours:
+2014-06-06 12:27:23 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.277.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["bettingApp_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:27:23 =ERROR REPORT====
+** Generic server <0.281.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],69662,73759,77856}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:27:23 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.281.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 3151
+  neighbours:
+2014-06-06 12:27:23 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.281.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["bettingApp_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:30:37 =ERROR REPORT====
+** Generic server <0.266.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:30:37 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.266.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 3159
+  neighbours:
+2014-06-06 12:30:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.266.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["bettingApp_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-06-06 12:31:18 =ERROR REPORT====
+** Generic server <0.275.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,bettingApp,["bettingApp_index_controller"],57376,61471,65566}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-06-06 12:31:18 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.275.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,744}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.265.0>,boss_web,boss_sup,<0.96.0>]
+    messages: []
+    links: [<0.265.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 3151
+  neighbours:
+2014-06-06 12:31:18 =SUPERVISOR REPORT====
+     Supervisor: {<0.265.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,172}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.275.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,bettingApp},{controllers,["bettingApp_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
